@@ -200,7 +200,7 @@ body {
 .footer .topfooter .infobottom .item{
     width: 50%;
     color: 16px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .footer .topfooter .infobottom .item .left i{
@@ -208,6 +208,224 @@ body {
     color: yellow;
     margin-right: 8px;
 }
+
+/* style footer column 2 */
+.footer .topfooter h3.title{
+    font-size: 16px;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.footer .topfooter .onepost{
+    border-bottom: 1px solid #23313f;
+    margin-bottom: 20px;
+}
+
+.footer .topfooter .onepost img{
+    width: 70px;
+    height: 70px;
+}
+
+.footer .topfooter .onepost .col-sm-4,.footer .topfooter .onepost .col-sm-8{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer .topfooter .onepost .titlepost{
+    font-size: 14px;
+    font-weight: bold;
+    color: #a1b1bc;
+    text-transform: uppercase;
+    display: block;
+}
+
+.footer .topfooter .onepost .titlepost:hover{
+    text-decoration: none;
+}
+
+.footer .topfooter .onepost p.descpost{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.footer .topfooter .onepost p.date{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.footer .topfooter .onepost .imagepost{
+    position: relative;
+    cursor: pointer;
+}
+
+.footer .topfooter .onepost .imagepost:after{
+    content: "+";
+    color: white;
+    width: 70px;
+    height: 70px;
+    background: #1abc9c;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 100;
+    transition: 0.4s;
+    transform: scale(0);
+    margin-left: 10px;
+}
+
+.footer .topfooter .onepost:hover .imagepost:after{
+    transform: scale(1);
+}
+
+.footer .topfooter .listtag a{
+    display: inline-block;
+    padding: 10px 7px;
+    border: 1px solid #a1b1bb;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #a1b1bc;
+    font-size: 15px;
+}
+
+.footer .topfooter .listtag a:hover{
+    text-decoration: none;
+    background: #1abc9c;
+    color: #fff;
+}
+
+.footer .topfooter .bottom{
+    margin-top: 30px;
+}
+
+.footer .topfooter .bottom .title{
+    line-height: 40px;
+}
+
+.footer .topfooter .bottom ul.listcategory{
+    list-style: none;
+}
+
+.footer .topfooter .bottom ul.listcategory li a{
+    display: block;
+    padding: 15px 15px;
+    border-bottom: 1px solid #23313f;
+    color: #a1b1bc;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.footer .topfooter .bottom ul.listcategory li a i{
+    margin-right: 5px;
+    font-size: 10px;
+    color: #1abc9c;
+}
+
+.footer .topfooter .bottom ul.listcategory li a:hover{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.footer .topfooter .bottom ul.listcategory li a:hover i{
+    color: #a1b1bc;
+}
+
+.footer .topfooter .bottom ul.listcategory li:last-child a{
+    border-bottom: none;
+}
+
+
+.footer .topfooter .square{
+    width: 85px;
+    height: 85px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: #cccccc;
+    position: relative;
+}
+
+.footer .topfooter .listsquare .square:after{
+    content: "+";
+    color: white;
+    width: 85px;
+    height: 85px;
+    background: #1abc9c;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 85px;
+    font-size: 30px;
+    font-weight: 100;
+    transition: 0.4s;
+    /* transform: scale(0); */
+    opacity: 0;
+}
+
+.footer .topfooter .listsquare .item:hover .square:after{
+    /* transform: scale(1); */
+    opacity: 1;
+}
+
+
+.footer .topfooter .bottom .form{
+    margin-top: 30px;
+    border: 1px solid #23313f;
+    box-sizing: border-box;
+}
+
+.footer .topfooter .bottom .form input{
+    width: 229px;
+    display: inline-block;
+    float: left;
+    border: none;
+    border-radius: 0;
+    background: #212533;
+}
+
+.footer .topfooter .bottom .form button{
+    width: 39px;
+    display: inline-block;
+    background: #1abc9c;
+    border-radius: 0;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.copyright{
+    padding: 30px 0px;
+    background: #222533;
+    font-size: 14px;
+    color: #a1b1bc;
+}
+
+.copyright a{
+    color: red;
+}
+
+.copyright a:hover{
+    text-decoration: none;
+}
+
+.copyright .social a{
+    color: #a1b1bc;
+}
+
+.copyright .social a i{
+    padding-left: 10px;
+}
+
+/* end style column 2 */
+
 
 /* end style footer */
 
