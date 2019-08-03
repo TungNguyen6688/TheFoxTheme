@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Lato', sans-serif; */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.topheader {
+  background: url("./images/banner-home.jpg") center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+.topheader .text .text-small {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.topheader .text .text-title {
+  font-size: 54px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.topheader .text .text-title span {
+  color: #00ffcd;
+}
+
+.topheader .text .button {
+  margin-top: 50px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+
+@media (max-width: 768px) {
+  .topheader {
+    background: url(https://themes.muffingroup.com/be/eco/wp-content/uploads/2016/04/home_eco_wrapbg1.jpg);
+  }
+}
+
+/* css page contact */
+
+/* css top header */
+
+.wp-contact {
+  font-family: "Lato", sans-serif;
+}
+
+.wp-contact .top .menutop {
+  padding: 0;
+  /* transition: 0.4s; */
+  animation: 1s movedown forwards;
+}
+
+.wp-contact .logo {
+  padding: 0;
+}
+
+.wp-contact .top .menuright li.nav-item a.nav-link {
+  padding: 30px 20px;
+  color: #a1b1bc;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.wp-contact .top .menuright li.nav-item a.nav-link:hover {
+  color: #1abc9c;
+}
+/* end  css top header */
+
+/* css banner */
+
+.wp-contact .banner{
+    background: url('./images/banner-home.jpg');
+    height: 600px;
+    background-size:cover; 
+    opacity: 0;
+    animation: 1s moveright forwards;
+    animation-delay: 0.6s;
+}
+
+.wp-contact .banner .info{
+    background: #435566;
+    border-left: 3px solid #16caaa;
+    box-sizing: border-box;
+    padding: 30px 70px 30px 30px;
+    color: #fff;
+    /* transition: 0.4s; */
+    animation: 1s moveright forwards;
+    animation-delay: 0.6s;
+}
+
+.wp-contact .banner .info .title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.wp-contact .banner .info ul{
+    list-style: none;
+}
+
+.wp-contact .banner .info span{
+    font-size: 14px;
+}
+
+.wp-contact .banner .info ul.list-info li span{
+    margin-left: 3px;
+}
+
+.wp-contact .banner .info ul.list-info li span.phone{
+    color: #00ffcd;
+}
+
+
+@keyframes moveright{
+    from{opacity: 0; transform: translateX(-200px)}
+    to{opacity: 1; transform: translateX(0)}
+}
+
+@keyframes movedown{
+    from{opacity: 0; transform: translateY(-200px)}
+    to{opacity: 1; transform: translateY(0)}
+}
+
+/* end css banner */
+
+
+/* style form */
+.wp-contact .content{
+    padding: 100px 0;
+}
+
+.wp-contact .content .form-group{
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.wp-contact .content .form-group input{
+    padding: 13px 20px;
+}
+
+.wp-contact .content .form-group select{
+    height: 52px;
+}
+
+.wp-contact .content form .button{
+    padding: 15px 25px;
+    background: #1abc9c;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* end style form */
+
+/* style footer */
+
+.footer .topfooter{
+    background: #1a1c27;
+    font-size: 14px;
+    color: #758590;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.footer .topfooter .infotop{
+    border-bottom: 1px solid #23313f;
+}
+
+.footer .topfooter .desc{
+    margin-bottom: 30px;
+}
+
+.footer .topfooter .readmore{
+    display: block;
+    color: #1abc9c;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+
+.footer .topfooter .readmore i{
+    color: #000;
+    background: #1abc9c;
+    border-radius: 50%;
+    padding: 2px 7px;
+}
+
+.footer .topfooter .infobottom .item{
+    width: 50%;
+    color: 16px;
+    margin-top: 30px;
+}
+
+.footer .topfooter .infobottom .item .left i{
+    font-size: 35px;
+    color: yellow;
+    margin-right: 8px;
+}
+
+/* end style footer */
+
+
+
+@media (max-width: 575px) {
+  .wp-contact .container {
+    padding: 0;
+  }
+
+  .wp-contact .logo {
+    margin: auto;
+  }
+
+  .wp-contact .top .button {
+    margin-right: 20px;
+  }
+
+  .wp-contact .top .menuright li.nav-item {
+    background: #1abc9c;
+    text-align: center;
+  }
+
+  .wp-contact .top .menuright li.nav-item.search {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .wp-contact .top .menuright li.nav-item:hover {
+    background: #0f866f;
+    border-bottom: 1px dashed #000;
+  }
+
+  .wp-contact .top .menuright li.nav-item a.nav-link {
+    padding: 20px 20px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s;
+  }
+
+  .wp-contact .top .menuright li.nav-item a.nav-link:hover {
+    color: #1abc9c;
+  }
+}
