@@ -49,9 +49,307 @@ body {
   }
 }
 
-/* css page contact */
+/* css home page */
 
-/* css top header */
+.wp-content .info{
+    padding: 100px 0px;
+}
+
+.wp-content .text{
+    background: url('./images/bo-top.png') center bottom no-repeat;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.wp-content .text .title{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wp-content .text .desc{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wp-content .info{
+    color: #a1b1bc;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.wp-content .special-product .carousel{
+    height: 500px;
+    overflow: hidden;
+}
+
+.wp-content .special-product .carousel img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.wp-content .yourwork{
+    padding-top: 25px;
+    padding-bottom: 90px;
+}
+
+.wp-content .yourwork .text{
+    background: none;
+    margin-bottom: 40px;
+    padding: 0;
+    display: block;
+}
+
+.wp-content .yourwork .text .title{
+    text-transform: uppercase;
+    color: #2c3e50;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.wp-content .yourwork .text .desc{
+    text-transform: none;
+}
+
+.wp-content .yourwork .col-sm-6{
+    padding: 0;
+}
+
+.wp-content .yourwork .listitem .item{
+    width: 560px;
+    margin-bottom: 40px;
+}
+
+.wp-content .yourwork .listitem .item img{
+    margin-bottom: 20px;
+}
+
+.wp-content .yourwork .listitem .item h4.title{
+    font-size: 14px;
+    color: #2c3e50;
+    font-weight: 900;
+}
+
+.wp-content .yourwork .listitem .item p.desc{
+    font-size: 14px;
+    color: #a1b1bc;
+    font-weight: 500;
+}
+
+.item{
+    width: 370px;
+}
+
+.item .top{
+    width: 370px;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+}
+
+.item .top img.layer1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.item .top .layer2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.item .top .layer2 i{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 0px 5px;
+    transition: 0.4s;
+}
+
+.item .top .layer2 i:hover{
+    background: #fff;
+    color: #000;
+}
+
+.item .bottom h4.title{
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 14px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.item .bottom p.desc{
+    color: #a1b1bc;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.director {
+    padding: 200px 0;
+    background: #88898f;
+    color: #fff;
+}
+
+.director h4.title{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+.director span.namedirector{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.features {
+    padding: 80px 0;
+}
+
+.features .listitem .thumb{
+    width: 120px;
+    height: 120px;
+    background: #f7d7d7;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.features .listitem .thumb .layer1{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.features .listitem .thumb .layer1 i{
+    line-height: 110px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.features .listitem .thumb:hover .layer1{
+    background: #222533;
+    border: 4px solid #fff;
+}
+
+.features .listitem h5.title{
+    color: #2c3e50;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.features .listitem span.desc{
+    color: #a1b1bc;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.features .listitem .col-sm-3{
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.features .listitem .col-sm-9{
+    padding: 0;
+}
+
+.features .listitem .left .col-sm-9{
+    padding-right: 15px;
+}
+
+.features .listitem .left .col-sm-3{
+    padding-right: 15px;
+}
+
+.features .listitem .right .col-sm-3{
+    padding-left: 15px;
+}
+
+.features .listitem .right .col-sm-9{
+    padding-left: 15px;
+}
+
+.blogs{
+    background: #1a1c27;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.blogs .text{
+    color: #fff;
+}
+
+.blogs .listitem .item{
+    width: 250px;
+    margin: 5px;
+}
+
+.blogs .listitem .item .top{
+    width: 250px;
+    height: 200px;
+}
+
+.blogs .listitem .item .title{
+    color: #fff;
+}
+
+.blogs .carousel-indicators{
+    bottom: -24px;
+}
+
+.latestnew{
+    padding: 90px 0px;
+}
+
+.latestnew h2.title{
+    color: #2c3e50;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 26px;
+    font-weight: 400;
+    border-bottom:1px solid #ebebeb;
+    display: block;
+    margin-bottom: 1px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.latestnew .listitem{
+    padding-top: 30px;
+    border-top:1px solid #ebebeb;
+}
+
+.latestnew .listitem p.date{
+    color: #2c3e50;
+    font-size: 12px;
+}
+
+.latestnew .col-sm-4{
+    padding: 0;
+}
+/* end home page css */
+
 
 .wp-contact {
   font-family: "Lato", sans-serif;
@@ -340,12 +638,16 @@ body {
     border-bottom: none;
 }
 
-
-.footer .topfooter .square{
+.footer .topfooter .listsquare .item{
     width: 85px;
     height: 85px;
     margin-right: 5px;
     margin-bottom: 5px;
+}
+
+.footer .topfooter .square{
+    width: 85px;
+    height: 85px;
     background: #cccccc;
     position: relative;
 }
